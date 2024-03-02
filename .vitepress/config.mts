@@ -14,13 +14,24 @@ export default defineConfig({
 
     sidebar: {
       '/donemler': [
+        // {
+        //   text: "1. Sınıf",
+        //   collapsed: false,
+        //   items: [
+        //     {
+        //       text: "Bahar", collapsed: false, items: [
+        //         { text: 'Sinyallere Giriş', link: '/sinif-1/bahar/sinyallere-giris/index.md' }
+        //       ]
+        //     },
+        //   ]
+        // },
         {
           text: "3. Sınıf",
           collapsed: false,
           items: [
             {
               text: "Bahar", collapsed: false, items: [
-                { text: 'Mikroişlemci Sistemleri', link: '/sinif-3/mikroislemci-sistemleri' }
+                { text: 'Mikroişlemci Sistemleri', link: '/sinif-3/bahar/mikroislemci-sistemleri/index.md' }
               ]
             },
           ]
@@ -49,10 +60,27 @@ export default defineConfig({
       ],
       '/sinif-3/bahar/mikroislemci-sistemleri/': [
         {
-          text: "Konu 1",
-
+          text:"MSP430",
+          collapsed: false,
+          items: [
+            {
+              text:"Giriş",
+              link: '/sinif-3/bahar/mikroislemci-sistemleri/msp-430/giris.md'
+              
+            }
+          ]
         }
-      ]
+      ],
+      // '/sinif-1/bahar/sinyallere-giris/': [
+      //   {
+      //     text: "Giriş",
+      //     link: '/sinif-1/bahar/sinyallere-giris/index.md'
+      //   },
+      //   {
+      //     text: "Karmaşık Sayılar",
+      //     link: '/sinif-1/bahar/sinyallere-giris/karmasik-sayilar.md'
+      //   }
+      // ]
 
     },
 
@@ -61,5 +89,8 @@ export default defineConfig({
         icon: 'github', link: 'https://github.com/erayakgunn'
       }
     ]
+  },
+  markdown: {
+    math: true
   }
 })
