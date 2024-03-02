@@ -33,7 +33,7 @@ $z \leftrightarrow  r.\angle{\theta} \implies |z|=r$
 $\theta$ yalnızca $-180^\circ$ ve $180^\circ$ arasındaki değerleri alabilir.
 :::
 
-## Kartexyen ve Polar Gösterim Dönüşümü
+## Kartezyen ve Polar Gösterim Dönüşümü
 
 Her iki gösterim de karmaşık sayıları göstermek için sıklıkla kullanılır. Sinozoidal sinyalleri göterirken polar gösterim özellikle kullanışlıdır. Fakat çoğunlukla farklı yerlerde kartezyen gösterim tercih edilir. Nitekim bu iki gösterimi birbirine dönüştürmeyi bilmeliyiz.
 

@@ -4,4 +4,4 @@
 
 ### Bahar
 
-[Mikroişlemci Sistemleri](sinif-3/bahar/mikroislemci-sistemleri/index.md)
+[Mikroişlemci Sistemleri](sinif-3/bahar/mikroislemci-sistemleri/msp-430/giris.md)

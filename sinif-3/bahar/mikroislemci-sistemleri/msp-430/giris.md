@@ -40,3 +40,24 @@ P1IN = 0x41;
 
 ```
 
+### PxOUT
+
+Port çıkış registerıdır. Okuma ve yazma yapılabilir.
+
+Örnek:
+
+```c{1}
+P1OUT |= BIT6;
+// P1.6 pini 1 değerini alır. LED2 yanar.
+```
+
+### PxOUT
+
+İlgili portun pull-up direnç registerıdır. 1 olarak ayarlandığında pull-up direnç aktifleşir.
+
+Örnek:
+
+```c{1}
+P1REN |= BIT3;
+// P1.3 pininde pull-up direnç aktifleşir.
+```

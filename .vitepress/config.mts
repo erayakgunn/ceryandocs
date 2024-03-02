@@ -4,13 +4,16 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "CeryanDocs",
   description: "Elektrik Elektronik Öğrencilerine Yardımcı Kaynak",
-
+  lang:'tr-TR',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Anasayfa', link: '/' },
       { text: 'Dönemler', link: '/donemler' }
     ],
+    search:{
+      provider:'local'
+    },
 
     sidebar: {
       '/donemler': [
@@ -31,7 +34,7 @@ export default defineConfig({
           items: [
             {
               text: "Bahar", collapsed: false, items: [
-                { text: 'Mikroişlemci Sistemleri', link: '/sinif-3/bahar/mikroislemci-sistemleri/index.md' }
+                { text: 'Mikroişlemci Sistemleri', link: '/sinif-3/bahar/mikroislemci-sistemleri/msp-430/giris.md' }
               ]
             },
           ]
@@ -53,7 +56,7 @@ export default defineConfig({
           items: [
             {
               text: "Mikroişlemci Sistemleri",
-              link: "/sinif-3/bahar/mikroislemci-sistemleri"
+              link: "/sinif-3/bahar/mikroislemci-sistemleri/msp-430/giris.md"
             }
           ]
         },
@@ -67,6 +70,10 @@ export default defineConfig({
               text:"Giriş",
               link: '/sinif-3/bahar/mikroislemci-sistemleri/msp-430/giris.md'
               
+            },
+            {
+              text:"Temel C Operatörleri",
+              link:'/sinif-3/bahar/mikroislemci-sistemleri/msp-430/c-operatorleri.md'
             }
           ]
         }
