@@ -76,6 +76,20 @@ export default defineConfig({
               link:'/sinif-3/bahar/mikroislemci-sistemleri/msp-430/c-operatorleri.md'
             }
           ]
+        },
+        {
+          text:"Örnekler",
+          collapsed:false,
+          items: [
+            {
+              text:"LED Yakıp Söndürme",
+              link: '/sinif-3/bahar/mikroislemci-sistemleri/msp-430/ornekler/led-blink.md'
+            },
+            {
+              text:"2 Bit Sayıcı",
+              link: '/sinif-3/bahar/mikroislemci-sistemleri/msp-430/ornekler/2-bit-counter.md'
+            },
+          ]
         }
       ],
       // '/sinif-1/bahar/sinyallere-giris/': [
