@@ -9,6 +9,7 @@ export default defineConfig({
     ['link',{rel:'apple-touch-icon', type:"image/png",sizes:"180x180", href:'/apple-touch-icon.png'}],
     ['link',{rel:'manifest', type:"image/png", href:'/site.webmanifest'}],
     ['link',{rel:'mask-icon', type:"image/png",color:"#5bbad5",href:'/safari-pinned-tab.svg'}],
+    ["script", { src: "/_vercel/insights/script.js", defer: true }],
   ],
   description: "Elektrik Elektronik Öğrencilerine Yardımcı Kaynak",
   lang:'tr-TR',
