@@ -74,6 +74,10 @@ export default defineConfig({
             {
               text:"Temel C Operatörleri",
               link:'/sinif-3/bahar/mikroislemci-sistemleri/msp-430/c-operatorleri.md'
+            },
+            {
+              text:"Timer A",
+              link:"/sinif-3/bahar/mikroislemci-sistemleri/msp-430/timer-a.md"
             }
           ]
         },
@@ -88,6 +92,14 @@ export default defineConfig({
             {
               text:"2 Bit Sayıcı",
               link: '/sinif-3/bahar/mikroislemci-sistemleri/msp-430/ornekler/2-bit-counter.md'
+            },
+            {
+              text:"Interrupt ile 3 Bit Sayıcı",
+              link: '/sinif-3/bahar/mikroislemci-sistemleri/msp-430/ornekler/3-bit-counter-with-interrupt.md'
+            },
+            {
+              text:"Timer A",
+              link: '/sinif-3/bahar/mikroislemci-sistemleri/msp-430/ornekler/timer-a.md'
             },
           ]
         }

@@ -24,7 +24,7 @@ void configPins(void) {
 
 void updateLeds(void) {
   count++; // Sayı arttırıldı
-  count = count % 4;
+  count = count % 4; // 3'ü geçmemesi için mod alındı.
 
   switch (count) {
   case 0:
