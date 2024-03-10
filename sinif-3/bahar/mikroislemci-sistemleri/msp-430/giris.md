@@ -3,7 +3,7 @@
 [[toc]]
 
 ## Pin Yapısı
-![alt text](image.png)
+![alt text](/image.png)
 
 ## Pinler ve Konfigürasyonları
 

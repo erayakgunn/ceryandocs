@@ -19,13 +19,13 @@ $=Re\{z\} + j*Im\{z\}$,  $x=Re\{z\}, y=Im\{z\}$
 ## Kartezyen Gösterim
 Sıralı çiftler iki boyutlu düzlemde noktalar halinde gösterilebilir.
 
-![alt text](image.png)
+![alt text](/image.png)
 
 ## Polar Gösterim
 
 Aşağıda görülebileceği gibi karmaşık sayılar uzunluk ve açıyla da gösterilebilir.
 
-![alt text](image-1.png)
+![alt text](/image-1.png)
 
 $z \leftrightarrow  r.\angle{\theta} \implies |z|=r$
 
